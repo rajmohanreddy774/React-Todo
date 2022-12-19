@@ -1,0 +1,13 @@
+@mixin alignment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-div {
+  @include alignment;
+}
+
+.show-div {
+  @include alignment;
+}
